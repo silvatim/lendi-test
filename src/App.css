@@ -1,46 +1,11 @@
 .App {
   text-align: center;
+  background: url('room.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 15s linear;
-  height: 70px;
-  -webkit-box-shadow: 1px 10px 10px -9px rgba(0,0,0,0.75);
-  -moz-box-shadow: 1px 10px 10px -9px rgba(0,0,0,0.75);
-  box-shadow: 1px 10px 10px -9px rgba(0,0,0,0.75);
-}
 
-.App-header {
-  background-color:#24BE96;
-  color: white;
-  height: 120px;
-  padding-top: 10px;
-  font-size:0.8em;
-  -webkit-box-shadow: 0px 4px 16px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 4px 16px -5px rgba(0,0,0,0.75);
-  box-shadow: 0px 4px 16px -5px rgba(0,0,0,0.75);
-}
 
-.App-intro {
-  position:relative;
-  padding-top:15vh;
-  font-size:5em;
-}
-
-.Hello-container{
-  background:gainsboro;
-  width:60vw;
-  height:50vh;
-  margin:0 auto;
-  position:relative;
-  top:5vh;
-  border-radius:20px;
-  -webkit-box-shadow: 0px 4px 24px -6px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 4px 24px -6px rgba(0,0,0,0.75);
-  box-shadow: 0px 4px 24px -6px rgba(0,0,0,0.75);
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotateY(0deg); }
-  to { transform: rotateY(360deg); }
-}
