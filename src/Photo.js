@@ -26,7 +26,7 @@ class Photo extends Component {
     getPhotos(numPage) {
         //Page query for pagination
         let pageQuery = `?_page=${numPage}`;
-        // limiting records to 30 per page
+        // limiting records to 30 per page otherwise defaults to 10
         let limitQuery = `&_limit=${PER_PAGE}`;
 
         //Axios for api request
